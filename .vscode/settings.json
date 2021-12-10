@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/50fe6856-246f-4f5c-b73a-a74030418f1d/resourceGroups/estimationsepteoapp/providers/Microsoft.Web/sites/estimationsepteoapp",
+    "appService.deploySubpath": "."
+}
