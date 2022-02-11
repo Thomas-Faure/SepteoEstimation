@@ -6,7 +6,7 @@ class SocketioService {
   constructor() {}
 
   setupSocketConnection() {
-    this.socket = io('https://murmuring-woodland-31926.herokuapp.com/');
+    this.socket = io('https://aerobic-copilot-341010.oa.r.appspot.com');
     this.socket.on('users', function(data: any){
     store.commit({
         type: 'changerListeUtilisateur',
