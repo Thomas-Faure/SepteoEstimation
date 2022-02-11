@@ -6,7 +6,7 @@ class SocketioService {
   constructor() {}
 
   setupSocketConnection() {
-    this.socket = io('https://aerobic-copilot-341010.oa.r.appspot.com');
+    this.socket = io('https://aerobic-copilot-341010.oa.r.appspot.com',{ "rejectUnauthorized" : false});
     this.socket.on('users', function(data: any){
     store.commit({
         type: 'changerListeUtilisateur',
